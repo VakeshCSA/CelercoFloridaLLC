@@ -3,46 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Celerco Florida | Professional Healthcare</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>CELERCO FLORIDA</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f8fafc;
+            font-family: 'Georgia', serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 8px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 3.5rem;
+            letter-spacing: 0.8rem;
+            margin-bottom: 2.5rem;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+        .info {
+            font-size: 1.25rem;
+            font-weight: 400;
+            letter-spacing: 0.1rem;
+            line-height: 2;
+        }
+        .info p { margin: 0.5rem 0; }
+    </style>
 </head>
-<body class="bg-slate-50 text-slate-900 font-sans antialiased">
-    <nav class="bg-white border-b border-slate-200 px-6 py-4 flex justify-between items-center sticky top-0 z-50">
-        <h1 class="text-2xl font-extrabold text-blue-600 tracking-tight">Celerco Florida</h1>
-        <div class="space-x-8 font-semibold text-slate-600">
-            <a href="#" class="hover:text-blue-600">Home</a>
-            <a href="#" class="hover:text-blue-600">Services</a>
-            <a href="#" class="hover:text-blue-600">Contact</a>
+<body>
+    <div class="container">
+        <h1>CELERCO FLORIDA</h1>
+        <div class="info">
+            <p>PHONE: (727) 279-5826</p>
+            <p>SECURE FAX: (727) 342-6066</p>
         </div>
-        <a href="tel:7272795826" class="bg-blue-600 text-white px-6 py-2 rounded-full font-bold hover:bg-blue-700 transition">Call Now</a>
-    </nav>
-    <main>
-        <section class="py-24 px-6 text-center bg-gradient-to-b from-white to-slate-50">
-            <h2 class="text-6xl font-black text-slate-900 mb-6">Concierge Medicine for Florida</h2>
-            <p class="text-xl text-slate-600 max-w-2xl mx-auto mb-10">Boutique healthcare designed for your lifestyle. Experience personalized attention and 24/7 access.</p>
-            <div class="flex justify-center gap-4">
-                <button class="bg-slate-900 text-white px-8 py-3 rounded-xl font-bold">Book Appointment</button>
-                <button class="border-2 border-slate-200 px-8 py-3 rounded-xl font-bold">Our Services</button>
-            </div>
-        </section>
-        <section class="py-20 px-6 max-w-4xl mx-auto">
-            <div class="bg-blue-600 rounded-3xl p-12 text-white shadow-2xl">
-                <h3 class="text-3xl font-bold mb-8">Contact Our Office</h3>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div>
-                        <p class="text-blue-100 font-bold uppercase tracking-wider text-sm mb-2">Phone</p>
-                        <p class="text-3xl font-black">727-279-5826</p>
-                    </div>
-                    <div>
-                        <p class="text-blue-100 font-bold uppercase tracking-wider text-sm mb-2">Fax</p>
-                        <p class="text-3xl font-black">727-342-6066</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="py-12 px-6 border-t border-slate-200 text-center text-slate-500 font-medium">
-        <p>&copy; 2024 Celerco Florida. All rights reserved.</p>
-    </footer>
+    </div>
 </body>
 </html>
